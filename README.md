@@ -1,3 +1,8 @@
+<p>Laravel-NuxtのLaravelパート。5月テクトレの課題。下記参考に制作https://yuhodev.hatenablog.com/entry/2019/11/22/185824</p>
+<br>
+<br>
+<br>
+<br>
 <p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
 
 <p align="center">

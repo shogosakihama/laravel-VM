@@ -21,6 +21,4 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-Route::get('/axios-post', function () {
-  return  'text';
-});
+// Route::get('/axios-post2', 'AxiosPost@index')->name('axios-post2');

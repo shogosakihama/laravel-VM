@@ -37,7 +37,11 @@ Route::get('/test', function () {
   return 'Axios Test';
 });
 
-Route::get('/axios-post', function () {
-  return  'Axios Test';
-});
+// Route::get('/axios-post', function () {
+//   return  'Axios Test';
+// });
+
+Route::post('/axios-post2', 'AxiosPost@store');
+
+// Route::match(["post", "options"], '/axios-post2', 'AxiosPost@store');
 

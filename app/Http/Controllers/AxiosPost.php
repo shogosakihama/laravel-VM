@@ -4,6 +4,9 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
+use App\Post;
+
+
 class AxiosPost extends Controller
 {
     /**
@@ -34,7 +37,20 @@ class AxiosPost extends Controller
      */
     public function store(Request $request)
     {
-        //
+      // $this->authorize('create', 'App\Post');
+
+      // $post = new Post;
+
+      // $post->title = $request->title;
+      // $post->text = $request->text;
+      // $post->user_id = 2;
+      // // $post->user_id = $request->user()->id;
+
+      // $post->save();
+
+      // return response()->json(['stored' => true]);
+      return redirect()->route('home');
+
     }
 
     /**

@@ -29,17 +29,18 @@ class PostController extends Controller
      */
     public function store(Request $request)
     {
-      $this->authorize('create', 'App\Post');
+      // $this->authorize('create', 'App\Post');
 
       $post = new Post;
 
       $post->title = $request->title;
       $post->text = $request->text;
-      $post->user_id = $request->user()->id;
+      $post->user_id = '1';
+      // $post->user_id = $request->user()->id;
 
       $post->save();
 
-      return response()->json(['stored' => true]);
+      // return response()->json(['stored' => true]);
     }
 
     /**
